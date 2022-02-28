@@ -46,7 +46,8 @@ int fibannocci(int value){
         array[1] = num;
         count++; 
     }
-    return value > 1 ? array[1] : array[0];
+    // return value > 1 ? array[1] : array[0];
+    return array[1];
 
 }
 
@@ -54,7 +55,7 @@ int fibannocci(int value){
 int main(){
     fast_io;
 
-    cout << getHelper(6) << endl;
+    cout << fibannocci(11);
 
     return 0;
 }
