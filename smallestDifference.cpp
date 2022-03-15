@@ -2,6 +2,7 @@
 using namespace std;
 typedef unsigned long long ll;
 #define fast_io ios_base::sync_with_stdio(0); cin.tie(0)
+
 void smallestDifference(vector<int> array1,vector<int> array2){
         sort(array1.begin(),array1.end());
         sort(array2.begin(),array2.end());
@@ -38,7 +39,7 @@ void smallestDifference(vector<int> array1,vector<int> array2){
             cout << i << " ";
         }
 
-
+        
 }
 
 int main(){
